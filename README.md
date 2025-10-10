@@ -1,9 +1,11 @@
 # Hi, M'y name is Yacine ! 😁
 
-    I am passionate about web development, project management, digital marketing, and cybersecurity. With solid experience in various programming languages and networking, I am a curious and detail-oriented individual who is always ready to take on new challenges. I am driven by the desire to contribute to innovative, high-impact projects. ✒️​
+- ✒️:  I am passionate about web development, project management, digital marketing, and cybersecurity. With solid experience in various programming languages and networking, I am a curious and detail-oriented individual who is always ready to take on new challenges. I am driven by the desire to contribute to innovative, high-impact projects. 
+<p align="right">
+<img src="https://pg-p.ctme.caltech.edu/wp-content/uploads/sites/4/2023/06/Guide-to-Full-Stack-Developer-Skills.jpg">
+</p>
 
-
-- 🎓​ I am actively seeking an **internship opportunity** in **networking, full-stack development, or front-end/back-end development**.   
+- 🔍 I am actively seeking an **internship opportunity** in **networking, full-stack development, or front-end/back-end development**.   
 
 - 🖥️​ I am currently a student in the **Bachelor Coordinateur de Projets Informatiques program** at **[Enigma School](https://www.enigma-school.com/)**. 
 - 🧑‍🎓​ Programming Languages Acquired:
@@ -14,5 +16,14 @@
 
 - ​⏳​ Languages Acquired Before Internship 2026 :
 
-    ​<img src="https://static.vecteezy.com/system/resources/thumbnails/027/127/463/small_2x/javascript-logo-javascript-icon-transparent-free-png.png" width="50" height="50"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/1100px-Java_Logo.svg.png" width="50" height="50"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJggt0xTEMUK4fahKpLWmQtSQNNXeS8tli0FITpr6fMMg-F4QdHbQEsvE3rocfPGQ3i7w&usqp=CAU" width="50" height="50"><img src="https://w7.pngwing.com/pngs/724/306/png-transparent-c-logo-c-programming-language-icon-letter-c-blue-logo-computer-program.png" width="50" height="50"><img src="https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue-thumbnail.png" width="50" height="50"><img src="https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png" width="50" height="50"><img src="https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png" width="50" height="50">
+    ​<img src="https://static.vecteezy.com/system/resources/thumbnails/027/127/463/small_2x/javascript-logo-javascript-icon-transparent-free-png.png" width="50" height="50" ><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/1100px-Java_Logo.svg.png" width="50" height="50"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJggt0xTEMUK4fahKpLWmQtSQNNXeS8tli0FITpr6fMMg-F4QdHbQEsvE3rocfPGQ3i7w&usqp=CAU" width="50" height="50"><img src="https://w7.pngwing.com/pngs/724/306/png-transparent-c-logo-c-programming-language-icon-letter-c-blue-logo-computer-program.png" width="50" height="50"><img src="https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue-thumbnail.png" width="50" height="50"><img src="https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png" width="50" height="50"><img src="https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png" width="50" height="50">
 
+- 📄 My experiences : 
+    
+    - [MylinkedIn](https://www.linkedin.com/in/yacine-khiat-994b69386/)
+- ​​🗃️​ My Certifications : 
+    - **CCNA 1 et 2**   
+    <img src="https://image.pngaaa.com/606/536606-middle.png" width="70" height="30">
+    -   **CSNA** 
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwbF7zYOTphQR0srjhkBSwEySnjTay1Ape8w&s" width="50" height="50"> 
