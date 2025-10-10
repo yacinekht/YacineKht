@@ -25,6 +25,7 @@
 - ​​🗃️​ My Certifications : 
     - **CCNA 1 et 2**   
     <img src="https://image.pngaaa.com/606/536606-middle.png" width="70" height="30">
-    - **CSNA**  
+    
+    - CSNA  
         
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwbF7zYOTphQR0srjhkBSwEySnjTay1Ape8w&s" width="50" height="50"> 
