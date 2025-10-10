@@ -1,9 +1,10 @@
 # Hi, M'y name is Yacine ! 😁
-
+<table>
 - ✒️:  I am passionate about web development, project management, digital marketing, and cybersecurity. With solid experience in various programming languages and networking, I am a curious and detail-oriented individual who is always ready to take on new challenges. I am driven by the desire to contribute to innovative, high-impact projects. 
 <p Align="right">
-<img src="https://pg-p.ctme.caltech.edu/wp-content/uploads/sites/4/2023/06/Guide-to-Full-Stack-Developer-Skills.jpg" width="100" height="100">
+<img src="https://pg-p.ctme.caltech.edu/wp-content/uploads/sites/4/2023/06/Guide-to-Full-Stack-Developer-Skills.jpg" width="150" height="100">
 </p>
+</table>
 
 - 🔍 I am actively seeking an **internship opportunity** in **networking, full-stack development, or front-end/back-end development**.   
 
@@ -24,6 +25,6 @@
 - ​​🗃️​ My Certifications : 
     - **CCNA 1 et 2**   
     <img src="https://image.pngaaa.com/606/536606-middle.png" width="70" height="30">
-    -  **CSNA** 
+    - **CSNA**  
         
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwbF7zYOTphQR0srjhkBSwEySnjTay1Ape8w&s" width="50" height="50"> 
