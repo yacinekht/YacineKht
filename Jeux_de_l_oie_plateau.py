@@ -38,38 +38,39 @@ for i in range(5,0,-1):
     nbr=nbr+2
     
 
-# Exercice 1 : jeux de l'oie super simple
+# Exercice 1 : jeu de l'oie super simple
 print('''+-------------------------------------------------------------------+
 +-------------------------------------------------------------------+
 +---------------------------JEUX DE L'OIE !-------------------------+
 +-------------------------------------------------------------------+
 +-------------------------------------------------------------------+''')   
 ################################################################################################################################################
-# INITIALISATION : on demande de le nombre de joueurs , le nbr de dés qu'il veulent utiliser et on met en place le nombre de case .
+# INITIALISATION : on demande le nombre de joueurs, le nombre de dés qu'ils veulent utiliser et on met en place le nombre de cases.
 NB_CASES= 50
-nb_joueur=int(input("Bienvenue dans le jeux de L'OIE !    Combien de joueurs etes-vous ?  "))
-print(f" votre jeux comportes {NB_CASES} cases ")
-nb_de=int(int(input("avec combien de des allez-vous jouer ?"))) 
-
-# Je crée le DICtionnaire pour pouvoir stocker les valeur des Joueurs 
-joueurs=[] # je crée le tableau pour stocker les donner 
+nb_joueur=int(input("Bienvenue dans le jeu de L'OIE ! Combien de joueurs êtes-vous ? "))
+print(f"Votre jeu comporte {NB_CASES} cases.")
+nb_de=int(input("Avec combien de dés allez-vous jouer ? "))
 
 
-for t in range(nb_joueur):   
-    nom=input("qu'elle est ton speudo ? " )
+# Je crée le dictionnaire pour pouvoir stocker les valeurs des joueurs
+joueurs=[] # Je crée le tableau pour stocker les données
+
+
+for t in range(nb_joueur):
+    nom=input("Quel est ton pseudo ? ")
     joueur={
-        'nom': None,   # pour l'instant je met none car il vas dmd aprés le prenom et le mettre dans le dico 
-        
-        'position':0
+        'nom': None,   # Pour l'instant je mets None car il va demander le prénom et le mettre dans le dico
+        'position': 0
     }
-    joueurs.append(joueur)  # je met les joueur dans le tableau
-    joueur['nom']=nom
+    joueurs.append(joueur)  # Je mets les joueurs dans le tableau
+    joueur['nom'] = nom
 
 
 ########################################################################################################################
 #################################################  Mes fonction ###########################################################
 ############################################################################################################################
-# je vais d'abord créé la fonction pour le nombre de dé utiliser et leur resultat 
+
+# Je vais d'abord créer la fonction pour le nombre de dés utilisés et leur résultat
 
 import random
 
@@ -78,12 +79,12 @@ def d(nb_de):
     de_tableau=[]
     de_result=0
     somme=0
-    for x in range(nb_de):    
-        de_result=random.randint(1,6)
+    for x in range(nb_de):
+        de_result = random.randint(1, 6)
         de_tableau.append(de_result)
-        #print(de_result)
-    somme=sum(de_tableau)+somme
-    return somme 
+        # print(de_result)
+    somme = sum(de_tableau) + somme
+    return somme
     
 
 
@@ -94,24 +95,24 @@ def d(nb_de):
 
 
 
-# faire les cases spéciales
+    # Faire les cases spéciales
 def case_special():
     if joueur['position']%9==0:
         joueur['position']+=9
-        print(f"Bravo {joueur['nom']} avance de 9 cases !")
-        print(f"{joueur['nom']} est a la {joueur['position']} case")
+    print(f"Bravo {joueur['nom']} avance de 9 cases !")
+    print(f"{joueur['nom']} est à la case {joueur['position']}")
 
     #def case_pont():
     if joueur['position']==15:
         joueur['position']=20
-        print(f" bien jouer {joueur['nom']} vous  cette a la case {joueur['position']}  ")
+    print(f"Bien joué {joueur['nom']} ! Vous êtes à la case {joueur['position']}")
 
     #def case_puit():
     if joueur['position']/25==1:
         joueur['position']=10
-        print(f" bien jouer {joueur['nom']} vous  cette a la case {joueur['position']}  ")
+    print(f"Bien joué {joueur['nom']} ! Vous êtes à la case {joueur['position']}")
 
-### pour faire les trais :
+### Pour faire les traits :
 def afficher_plateau():
     tableau=[]
     for i in range(1,51):
@@ -136,14 +137,15 @@ def afficher_plateau():
 ####################################################################################################################################
 ####################################################################################################################################
 ####################################################################################################################################
-# mtn il faut lancer le jeux et les joueur vont lancer le jeux tant que un des deux ne vas pas attiendre l'objectif de 50 
+
+# Maintenant il faut lancer le jeu et les joueurs vont lancer le jeu tant qu'aucun d'eux n'a atteint l'objectif de 50
 
 
 jeu_termine = False
 while not jeu_termine:
     for joueur in joueurs:
         joueur['position'] += d(nb_de)
-        print(f"{joueur['nom']} est a la {joueur['position']} case ")
+        print(f"{joueur['nom']} est à la case {joueur['position']}")
         
         
         # la ou j'appelle mes fonctionn case :

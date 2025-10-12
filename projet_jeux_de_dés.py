@@ -1,10 +1,4 @@
-print('''+________________JEUX DE DES_______________+
---------------------------------------------
---------------------------------------------
---------------------------------------------''')
-import random
-# joueur1=input('Quelle est ton nom ? ')
-# joueur2=input('Quelle est ton nom ? ')
+print("+________________JEU DE DÉS_______________+")
 # somme1=0
 # somme2=0
 
@@ -18,77 +12,66 @@ import random
 #     print(f"{joueur2} le dés {d} a donner {resulat_du_dés2}")
 # print(f'la somme de {joueur1} est {somme1} ')
 # print(f'la somme de {joueur2} est {somme2} ')
-valeur=random.randint(1,100)    # je donne une valeur au azard pour que la psn qui jouer n'est pas tjr le meme objectif a attiendre 
-print(f" le jeux vas commencer !!! ATTENTION le but est d'etre le plus proches de la valeur: {valeur}") # je previen le joueur 
-le_nbr_de_joueur=int(input("combien y'a t'il de joueurs ? ")) # je demande au joueurs combien ils ont 
-score=0     # j'initialise le score a 0 parceque on en auras besoin plus tard il y avait aussi une autre solution comme j'ai fait avec le score_final 
-joueurs=[]  # je crée un tableau qui vas me permettre de ranger mes joueurs et leur caractéristique 
 
-# je créé un boucle que vas faire la meme chose pour chaque joueur et comme chaque joueur vas jouer il faut que chaqu'un joue et je leur dmd leur nom avant 
+import random
+valeur=random.randint(1,100)    # Je donne une valeur au hasard pour que la personne qui joue n'ait pas toujours le même objectif à atteindre
+print(f"Le jeu va commencer ! ATTENTION, le but est d'être le plus proche de la valeur : {valeur}") # Je préviens le joueur
+le_nbr_de_joueur=int(input("Combien y a-t-il de joueurs ? ")) # Je demande aux joueurs combien ils sont
+score=0     # J'initialise le score à 0 car on en aura besoin plus tard. Il y avait aussi une autre solution comme j'ai fait avec le score_final
+joueurs=[]  # Je crée un tableau qui va me permettre de ranger mes joueurs et leurs caractéristiques
+
+    
+    # Je crée une boucle qui va faire la même chose pour chaque joueur. Comme chaque joueur va jouer, il faut que chacun joue et je leur demande leur nom avant.
 for x in range(le_nbr_de_joueur):
-    score=0  
-    nom=input(f"quelle est le nom du joueur ? ")
+    score=0
+    nom=input(f"Quel est le nom du joueur ? ")
     joueur={
         "nom": nom,
-        "lances":0,
-        "score":0,
-        "score_final":0 
-         
+        "lances": 0,
+        "score": 0,
+        "score_final": 0
     }
-    joueurs.append(joueur) # je range comme je les dit les caractéristique de mon joueurs dans le tableau comme ca je vais pouvoirs enregistrer mes valeur et les réutiliser si besoin de facon ordonner et bien ranger 
-    
-# mtn que j'ai les caractéristique du joueur mtn il faut bine que le joueur joue , donc je le met bien dasn la boucle et le nombre de fois ou il joue vas dependre de lui meme alors soit je met un boucle while , soit for avec une vzaleur qui commencer met que on ne c pas quand elle vas s'arreter
-    
-    for i in range(0,1000000000):
-        
-        resultat_du_dés=random.randint(1,6)
-        score=score+resultat_du_dés
-        reponse=input(f"la somme est {score} est ce que on continue ? ")
-        
-        # a ce moment la il faut enregistrer les valeurs si je m'arrete la sans ecrire append bas els valeur vont pas s'enregistrer pour le joeueur et du coup bon courage pas les reutiliser 
-        joueur["lances"]=joueur["lances"]+1
-        joueur["score"]=score
-        # ici y'a quelque chose qui est mauvais c le continue et le break c pas bien de les utiliser donc il faudrais utiliser une boucle while au debut a la place et mettre jor un truc= true et tant que il est vrai pas on refait la boucle et au moment ou le mec vas donner un truc differend de true pas sava stopper 
-        # reponse=True
-        # while reponse:
-        #     resultat_du_dés=random.randint(1,6)
-        # score=score+resultat_du_dés
-        # reponse=input(f"la somme est {score} est ce que on continue ? ")
-        # joueur["lances"]=joueur["lances"]+1
-        # joueur["score"]=score
-        if reponse== 'OUI':
+    joueurs.append(joueur) # Je range les caractéristiques de mon joueur dans le tableau pour pouvoir enregistrer les valeurs et les réutiliser si besoin de façon ordonnée et bien rangée
+
+    # Maintenant que j'ai les caractéristiques du joueur, il faut bien que le joueur joue. Donc je le mets dans la boucle et le nombre de fois où il joue va dépendre de lui-même. Alors soit je mets une boucle while, soit for avec une valeur qui commence mais on ne sait pas quand elle va s'arrêter.
+    for i in range(0, 1000000000):
+        resultat_du_dés = random.randint(1, 6)
+        score = score + resultat_du_dés
+        reponse = input(f"La somme est {score}. Est-ce qu'on continue ? ")
+        joueur["lances"] = joueur["lances"] + 1
+        joueur["score"] = score
+        # Ici, il y a quelque chose qui est mauvais : le continue et le break, ce n'est pas bien de les utiliser. Donc il faudrait utiliser une boucle while au début à la place et mettre par exemple un truc = True et tant que c'est vrai, on refait la boucle et au moment où le joueur donne un truc différent de True, ça va stopper.
+        if reponse.upper() == 'OUI':
             continue
         else:
             break
-    print(f"le nombre de lancer est {joueur["lances"]}")
-    
-        # joueur["score"]=score
-    print(f"la somme est {score} pour le joueur {nom}")
+    print(f"Le nombre de lancers est {joueur['lances']}")
+    print(f"La somme est {score} pour le joueur {nom}")
 
-# mtn on a termine ceque chaque joueur vas faire on doit mtn comparer les score , qui vas gagné qui auras le score le plus proche de l'objectif etc...
-# le moment ou il faut comparer les score_final :   
+    # Maintenant que chaque joueur a terminé, on doit comparer les scores, qui va gagner, qui aura le score le plus proche de l'objectif, etc.
+    # Le moment où il faut comparer les scores finaux :
 
-la_plus_petit_valeur=1000000000000
-
+la_plus_petite_valeur = 1000000000000
+gagnant = None
 
 for x in range(le_nbr_de_joueur):
-    
-    score_final=valeur-joueurs[x]['score'] # pk x parceque il vas aller chercher le premier joueur et aprés il vas refaire la boucle ne fonction du nombre de joueur voila pk dans le for j'ai ecrit nbr de joueur 
-    # on enregistre tjr pour pouvoir le réutiliser 
-    joueurs[x]['score_final']=score_final
+    score_final = valeur - joueurs[x]['score'] # x va chercher le premier joueur et après il va refaire la boucle en fonction du nombre de joueurs
+    # On enregistre toujours pour pouvoir le réutiliser
+    joueurs[x]['score_final'] = score_final
 
-    if score_final<0:
-        print(f'{joueurs[x]['nom']} a perdu , vous avez dépasser  {valeur}')
+    if score_final < 0:
+        print(f"{joueurs[x]['nom']} a perdu, vous avez dépassé {valeur}")
     else:
-#mtn il faut regarder le quelle des joeur restant a le score_final le plus petit
-            if joueurs[x]["score_final"]>=0 and joueurs[x]["score_final"]<=la_plus_petit_valeur:
-                la_plus_petit_valeur=joueurs[x]["score_final"]
-            else:
-                continue
-if la_plus_petit_valeur==None:
-    print("il y a pas de gagnant")
-
-print( f"le gagant a {la_plus_petit_valeur} de difference avec l'objectif et c'est {joueurs[x]['nom']}")
+        # Maintenant il faut regarder lequel des joueurs restants a le score_final le plus petit
+        if joueurs[x]["score_final"] >= 0 and joueurs[x]["score_final"] <= la_plus_petite_valeur:
+            la_plus_petite_valeur = joueurs[x]["score_final"]
+            gagnant = joueurs[x]['nom']
+        else:
+            continue
+if gagnant is None:
+    print("Il n'y a pas de gagnant.")
+else:
+    print(f"Le gagnant a {la_plus_petite_valeur} de différence avec l'objectif et c'est {gagnant}.")
 
  
 

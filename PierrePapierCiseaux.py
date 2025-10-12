@@ -1,9 +1,9 @@
 
 print('''
-      -------------------------JEUX--------------------------
-      PIERRE------------------PAPIER-------------------CISEAU''')
+    -------------------------JEU--------------------------
+    PIERRE------------------PAPIER-------------------CISEAUX''')
 import random
-print("Pierre, Papier, Ciseaux , le premier a 5 point a gagné(e)!!")
+print("Pierre, Papier, Ciseaux, le premier à 5 points a gagné !")
 
 
 def score(nombre):
@@ -29,12 +29,12 @@ while score_moi < 5 and score_ordinateur < 5:
     while MOI<1 or MOI>3 :
         MOI=int(input("1:Pierre,2:Papier,3:Ciseau   : "))
     ORDINATEUR=random.randint(1,3)
-    print(f"l'humain montre {score(nombre=MOI)}")
-    print(f"l'ordinateur montre {score(nombre=ORDINATEUR)}")
+    print(f"L'humain montre {score(MOI)}")
+    print(f"L'ordinateur montre {score(ORDINATEUR)}")
     point_moi, point_ordi = totalDesPoints(MOI,ORDINATEUR)
     score_moi += point_moi
     score_ordinateur += point_ordi
-    print(f" l'humain a {score_moi} et l'ordinateur a {score_ordinateur}")
+    print(f"L'humain a {score_moi} et l'ordinateur a {score_ordinateur}")
 
 if score_moi == 5:
     print("Bravo, l'humain a gagné !")
