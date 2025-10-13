@@ -1,8 +1,17 @@
 # Hi, M'y name is Yacine ! 😁
 <table>
+<tr>
+<td>
+<p>
 - ✒️:  I am passionate about web development, project management, digital marketing, and cybersecurity. With solid experience in various programming languages and networking, I am a curious and detail-oriented individual who is always ready to take on new challenges. I am driven by the desire to contribute to innovative, high-impact projects. 
+</p>
+</td>
+<td>
 <p Align="right">
 <img src="https://pg-p.ctme.caltech.edu/wp-content/uploads/sites/4/2023/06/Guide-to-Full-Stack-Developer-Skills.jpg" width="150" height="100">
+
+</tr>
+</td>
 </p>
 </table>
 
