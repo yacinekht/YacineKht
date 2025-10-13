@@ -1,7 +1,7 @@
 # Hi, M'y name is Yacine ! 😁
 <table>
-<tr width="60%">
-<td>
+<tr>
+<td width="60%">
 <p>
 - ✒️:  I am passionate about web development, project management, digital marketing, and cybersecurity. With solid experience in various programming languages and networking, I am a curious and detail-oriented individual who is always ready to take on new challenges. I am driven by the desire to contribute to innovative, high-impact projects. 
 </p>
