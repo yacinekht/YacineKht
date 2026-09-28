@@ -22,18 +22,15 @@
 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" width="50" height="50"><img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Python-logo.png" width="50" height="50">
 
-
-
-- ​⏳​ Languages Acquired Before Internship 2026 :
-
     ​<img src="https://static.vecteezy.com/system/resources/thumbnails/027/127/463/small_2x/javascript-logo-javascript-icon-transparent-free-png.png" width="50" height="50" ><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/1100px-Java_Logo.svg.png" width="50" height="50"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJggt0xTEMUK4fahKpLWmQtSQNNXeS8tli0FITpr6fMMg-F4QdHbQEsvE3rocfPGQ3i7w&usqp=CAU" width="50" height="50"><img src="https://w7.pngwing.com/pngs/724/306/png-transparent-c-logo-c-programming-language-icon-letter-c-blue-logo-computer-program.png" width="50" height="50"><img src="https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue-thumbnail.png" width="50" height="50"><img src="https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png" width="50" height="50"><img src="https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png" width="50" height="50">
 
 - 📄 My experiences : 
     
     - [MylinkedIn](https://www.linkedin.com/in/yacine-khiat-994b69386/)
 - ​​🗃️​ My Certifications : 
-    - **CCNA 1 et 2**   
+    - **CCNA 1 , 2 et AZ-900**   
     <img src="https://image.pngaaa.com/606/536606-middle.png" width="70" height="30">
+    <img src="https://www.thomasmaurer.ch/wp-content/uploads/2019/01/AZ-900-Microsoft-Azure-Fundamentals.jpg" height="30" width="70">
     
     - CSNA  
         
