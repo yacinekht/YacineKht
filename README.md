@@ -123,19 +123,14 @@ timeline
 | 🔗 [**project-name**](https://github.com/YacineKht/project-name) | One sentence: what problem it solves and what you built. | ![](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) |
 
 ---
-
 ## 📊 GitHub stats
+<div align="center"> <img src="https://streak-stats.demolab.com/?user=YacineKht&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
-<div align="center">
+<br/><br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YacineKht&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YacineKht&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com/?user=YacineKht&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+Followers Profile
 
 </div>
-
----
 
 ## 📫 Let's connect
 
