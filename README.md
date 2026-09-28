@@ -112,15 +112,6 @@ timeline
 
 ---
 
-## 📌 Featured projects
-
-> 🚧 *Add your best 3 to 6 projects here. Use the same format for each one.*
-
-| Project | Description | Stack |
-|---|---|---|
-| 🔗 [**project-name**](https://github.com/YacineKht/project-name) | One sentence: what problem it solves and what you built. | ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| 🔗 [**project-name**](https://github.com/YacineKht/project-name) | One sentence: what problem it solves and what you built. | ![](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| 🔗 [**project-name**](https://github.com/YacineKht/project-name) | One sentence: what problem it solves and what you built. | ![](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) |
 
 ---
 ## 📊 GitHub stats
