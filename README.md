@@ -126,9 +126,8 @@ timeline
 ## 📊 GitHub stats
 <div align="center"> <img src="https://streak-stats.demolab.com/?user=YacineKht&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
-<br/><br/>
+<br/>
 
-Followers Profile
 
 </div>
 
