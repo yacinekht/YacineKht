@@ -8,7 +8,7 @@
 </td>
 <td>
 <p Align="right">
-<img src="https://pg-p.ctme.caltech.edu/wp-content/uploads/sites/4/2023/06/Guide-to-Full-Stack-Developer-Skills.jpg" width="150" height="100">
+<img src="[https://pg-p.ctme.caltech.edu/wp-content/uploads/sites/4/2023/06/Guide-to-Full-Stack-Developer-Skills.jpg](https://images.pexels.com/photos/29445973/pexels-photo-29445973/free-photo-of-code-javascript-colore-sur-un-ecran-d-ordinateur.jpeg?cs=tinysrgb&dpr=1&w=500)" width="150" height="100">
 
 </tr>
 </td>
